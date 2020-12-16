@@ -8,4 +8,6 @@ func main() {
 
 	var vv = 42.6  //change me !
 	fmt.Printf("vv is of type %T\n", vv)
+	s := "sex"
+	fmt.Printf("s is of type %T\n", s)
 }
