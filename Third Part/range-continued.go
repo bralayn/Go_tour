@@ -12,4 +12,8 @@ func main() {
 	for _, value := range pow {
 		fmt.Printf("%d\n", value)
 	}
+
+	for i, _ := range pow {
+		fmt.Printf("%d\n", i)
+	}
 }
