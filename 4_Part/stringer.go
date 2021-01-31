@@ -8,11 +8,12 @@ type Person struct {
 }
 
 func (p Person) String() string {
-	return fmt.Sprintf("%v (%v years)", p.Name, p.Age)
+	return fmt.Sprintf("%v (%v years)\n", p.Name, p.Age)
 }
 
 func main() {
 	a := Person{"Arthur Dent", 42}
 	z := Person{"Zaphod Beeblebrox", 9001}
-	fmt.Println(a, z)
+	k := Person{"Kozlevich", 45}
+	fmt.Println(a, z, k)
 }
