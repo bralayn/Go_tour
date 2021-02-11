@@ -17,5 +17,5 @@ func main() {
 		fmt.Println("NO")
 	}
 
-	//fmt.Println(x, y, z)
+	fmt.Println(n / 100)
 }
